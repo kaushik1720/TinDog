@@ -1,0 +1,174 @@
+body { 
+    font-family: "Montserrat";
+}
+#title{
+    padding-top: 3rem;
+    background-color: #ff4c68;
+    color: white;
+    height: 550px;
+    z-index: 0;
+}
+.container-fluide {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 1000;
+    line-height: 1.5;
+    color: white;
+}
+h2 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+h3 {
+    font-weight: 900;
+}
+
+/* navBar */
+
+.navbar {
+    margin-bottom: 4.5rem;
+    padding-left: 0%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.nav-item {
+    padding: 0% 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+.tit-img {
+    width: 15%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 20%;
+    z-index: 0;
+}
+
+@media (max-width: 1484px) {
+    .tit-img{
+        position: static;
+        width: 60%;
+        right: 5%;
+        top: 10%;
+
+    }
+
+@media (max-width: 991px) {
+    #title{
+        text-align: center;
+        height: 1250px;
+    }
+    .tit-img{
+        transform: rotate(0deg);
+        position: static;
+        width: 60%;
+        right: 5%;
+        top: 10%;
+
+    }
+}
+
+ 
+    
+}
+
+#features{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 0% 0%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.icon {
+    color: #e95858;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+
+p{
+    color: rgb(65, 64, 64);
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+
+}
+
+#press {
+    background-color: #ff4c68;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    
+    padding: 3% 15%;
+}
+
+
+
+#pricing {
+    margin: 3% 15%;
+    text-align: center;
+}
+
+.btn-padding {
+    padding: 3rem 7rem;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+
+#cta{
+    text-align: center;
+    background-color:#ff4c68;
+    color: #fff;
+}
+
+#cta .btn{
+    margin: 1rem 1rem 2rem;
+}
